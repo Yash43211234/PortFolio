@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2af54ba631.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.jpg" class="logo"> -->
+                <span class="replace-logo"><b class="y">y</b>ashwant</span>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>yashwant</span> <br>Sharma from India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------about --------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/yash.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly motivated and dynamic professional seeking a challenging  position in the technology industry where i can leverage my knowledge of emerging technologies.</p>
+                        
+                         <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                         </div>
+                         <div class="tab-content active-tab  " id="skills">
+                            <ul>
+                                <li><span>UI/UX</span> <br> Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span> <br> HTML CSS JAVASCRIPT</li>
+                                <li><span>MERN Stack Development</span> <br> Building Reactjs / Nodejs App</li>  
+                                <li><span>Android Development </span> <br>Building Android applicationa from scratch to end and deploy on playstore</li>                        
+                                <li><span>Currently learning </span> <br>Implemention of Data Science / Machine Learning.</li>                       
+
+                                </ul>
+                         </div>
+                         <div class="tab-content " id="experience">
+                            <ul>
+
+                                <li><span>Kunal i tech</span> <br> React js <b> 2-MONTH </b> </li>  
+                                <li><span>Internshala</span> <br>Complete HTML CSS JAVASCRIPT <b>6-MONTH</b> </li>  
+                                <li><span>Bajaj Automobile ltd.</span> <br>Diploma Trainee Engineer  <b>2021-2022</b> </li>  
+                                
+                         </div>
+                         <div class="tab-content " id="education">
+                            <ul>
+                                <li><span>Pursuing Bachelor of technology</span> <br>Dumka Engineering College  <b>2022-2025</b> <br> Computer Science and Engineering</li>
+                                <li><span>Diploma in Mechanical Engineering</span> <br>K K Polytechnic Dhanbad (Govindpur)<b>2019-2021</b></li>
+                                <li><span>High School</span> <br>DVC+2 h/s CTPS <b>2017-2019</b></li>
+                               
+                         </div>
+                         
+                        </div>
+
+            </div>
+        </div>
+    </div>
+<!-- -------------services----------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>UI/UX Design  </h2>
+                <p>This includes creating visually appealing designs, wireframes, and prototypes, as well as implementing these designs into functional and user-friendly interfaces. Services may also involve usability testing, user research, and ongoing optimization to enhance the overall user experience. UI/UX professionals aim to align designs with user needs, industry best practices, and the specific goals of the client or project.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Web app development</h2>
+                <p>Web development services involve the design, creation, and maintenance of websites or web applications. These services typically include front-end development, which focuses on the user interface and user experience, and back-end development, which deals with server-side functionality and database management</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>App development services encompass the process of designing, building, and maintaining mobile applications for various platforms such as iOS and Android. This includes both native app development, where the app is specifically designed for a particular operating system, and cross-platform development, which allows the app to run on multiple platforms with a single codebase</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img  src="https://i.pinimg.com/736x/d8/0f/f2/d80ff23b2c72713d9cc94bc5ebfcbd74.jpg" >
+
+                <div class="layer">
+                    <h3>F.I.R Managemenet system</h3>
+                    <p>The F.I.R. Management System, built with Node.js, Express.js, and MySQL, efficiently handles First Information Reports. It seamlessly integrates user-friendly interfaces with robust backend functionality, streamlining the process of filing, tracking, and managing FIRs. This system ensures secure data storage and retrieval, enhancing law enforcement efficiency.</p>
+                    <a href="data.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://i.pinimg.com/736x/78/fa/0d/78fa0d0463a9f8f99c0d8f15e0761516.jpg" >
+                <div class="layer">
+                    <h3>my-book-app</h3>
+                    <p>
+                        My Book App is a sleek digital platform designed with HTML, CSS, and JavaScript, allowing users to effortlessly store and manage their book collections. Through its user-friendly interface, book enthusiasts can add, edit, or delete books, creating a personalized virtual library that's accessible anytime, anywhere.</p>
+                    <a href="https://my-book-store-app.000webhostapp.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://i.pinimg.com/736x/e7/52/3f/e7523fde96d00485d0e69438ee6cdead.jpg" >
+                <div class="layer">
+                    <h3>Private chat App</h3>
+                    <p>The WebSocket-powered Chat App is a real-time communication platform crafted with Node.js and WebSocket technology. It facilitates instant messaging, allowing users to engage in dynamic conversations with minimal latency. The app delivers seamless connectivity, ensuring a responsive and interactive chat experience through WebSocket's efficient bidirectional communication.</p>
+                    <a href="data.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- --------------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p ><i class="fas fa-paper-plane"></i><a class="privatedet" href="mailto:yashwant4769@gmail.com">Send Email</a></p>
+                <p><i class="fas fa-phone-square-alt"></i><a class="privatedet" href="tel:+916204845750">Call Me</a></p>
+                <div class="social-icon">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/yashwant-kumar-65b742205"><i class="fab fa-linkedin"></i></a>                
+                </div>
+                <a href="images/YASHWANT KUMAR.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright yash , basically, made with <i class="fas fa-heart"></i>  for my portfolio.</p>
+    </div>
+</div>
+
+
+
+    
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-content');
+        function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove('active-link');
+         }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab');
+         }
+         event.currentTarget.classList.add('active-link')
+         document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwlKDzOtEi57yQk8u8F-jalGH-o45dUAC1yL5mqtLvEX8P-hzju7LkhIqjZhAJh7Dshaw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully";
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset();
+
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
